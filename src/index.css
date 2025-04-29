@@ -1,0 +1,63 @@
+body{
+  background-color: #f6e1b4;
+}
+.to-do-list{
+  font-family: verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  color:#441956;
+}
+h1{
+  font-size: 4rem;
+
+}
+button{
+  font-size : 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #441956;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+.add-button{
+  background-color: #CFF5F2;
+}
+.delete-button{
+  background-color: #B0295B;
+}
+.edit-button{
+  background-color: #E9C16B;
+}
+input[type="text"]{
+  font-size:1.5rem;
+  padding: 10px;
+  border: 3px dashed #B0295B;
+  border-radius: 10px;
+  color: #441956;
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color:#CFF5F2;
+  margin-bottom:10px;
+  border: 3px dotted #B0295B;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+}
+.text{
+  flex:1;
+}
+.delete-button, .edit-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+
+}
